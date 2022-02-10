@@ -143,7 +143,7 @@ filterBtns.forEach(btn => {
 		else {
 setTimeout(() => {
 		displayMenu(menuCategory);
-}, 700)
+}, 900)
 }
 		})
 })
