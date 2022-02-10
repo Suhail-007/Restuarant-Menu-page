@@ -140,7 +140,11 @@ filterBtns.forEach(btn => {
 				}
 		});
 		if (category == 'all') displayMenu(menu);
-		else displayMenu(menuCategory);
+		else {
+setTimeout(() => {
+		displayMenu(menuCategory);
+}, 700)
+}
 		})
 })
 
